@@ -132,6 +132,7 @@ table.ledger td.n small { display: block; font-size: 0.75rem; color: var(--muted
 table.ledger a { font-family: var(--f-display); font-stretch: 112%; font-weight: 700; color: var(--ink); text-decoration: none; }
 table.ledger a:hover { color: var(--accent); text-decoration: underline; }
 table.ledger .desc { color: var(--muted); display: block; margin-top: 2px; }
+table.ledger .new { display: inline-block; margin-left: 8px; padding: 1px 6px; font-family: var(--f-mono); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); border-radius: 2px; vertical-align: 2px; }
 .fmt { font-family: var(--f-mono); font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
 .note { margin-top: 14px; font-size: var(--s-1); color: var(--muted); }
 
@@ -264,6 +265,11 @@ img { max-width: 100%; }
             <tr><th>Database</th><th>Format</th><th class="n">Records</th></tr>
           </thead>
           <tbody>
+            <tr>
+              <td><a href="https://github.com/EngineerWithData/PurlinPressureBoxTests">Purlin pressure box tests</a><span class="new">New</span><span class="desc">Full-scale vacuum and pressure chamber tests of C- and Z-purlin roof and wall assemblies under gravity and uplift, from 24 MBMA research reports (1975&ndash;2011). Every value traces to a report page, and every review decision is documented.</span></td>
+              <td class="fmt">CSV</td>
+              <td class="n">389<small>tests</small></td>
+            </tr>
             <tr>
               <td><a href="https://github.com/EngineerWithData/FastenerConnectionTests">Fastener connection tests</a><span class="desc">Screw and power-actuated fastener connections to cold-formed steel, with full monotonic and cyclic load-deformation curves.</span></td>
               <td class="fmt">CSV</td>
